@@ -1,0 +1,35 @@
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    position: absolute;
+    top: 0;
+}
+
+h1 {
+    font-size: xxx-large;
+}
+
+#logo {
+    height: 155px;
+    animation: flutuar 3s ease infinite;
+}
+
+/* Aqui definimos a nossa animação com o nome "rotate" */
+@keyframes flutuar {
+
+    0% {
+        transform: translateY(0px);
+    }
+    
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
